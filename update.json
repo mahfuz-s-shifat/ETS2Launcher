@@ -1,9 +1,9 @@
 {
-  "launcherVersion": "1.0.7",
+  "launcherVersion": "1.0.8",
   "gameVersion": "1.0.0",
-  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.0.7/ETS2Launcher-Setup-1.0.7.exe",
+  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.0.8/ETS2Launcher-Setup-1.0.8.exe",
   "gameFilesDownloadUrl": "https://mega.nz/folder/H5BV0D5D#Mn3tlC3d9vg1TxJRrEKMyQ",
-  "sha256": "B4E2DC7B0EF4BF6AF1FAB5340FED74D20F02C6513B67D196F947367AFC51013A",
-  "releaseNotes": "ETS2 Launcher v1.0.7 with improved game file update notifications and UI fixes.",
+  "sha256": "087B0A4FBAA44951491308020D0A9808375C3C6F6014E6B13194C62E81A12C12",
+  "releaseNotes": "ETS2 Launcher v1.0.8 with improved update notifications and Launch Game update protection.",
   "minimumLauncherVersion": "1.0.0"
 }
