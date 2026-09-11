@@ -1,9 +1,9 @@
 {
-  "launcherVersion": "1.1.0",
+  "launcherVersion": "1.1.2",
   "gameVersion": "1.0.0",
-  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.1.0/GamerZoneLauncher-Setup-1.1.0.exe",
+  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.1.2/GamerZoneLauncher-Setup-1.1.2.exe",
   "gameFilesDownloadUrl": "https://mega.nz/folder/H5BV0D5D#Mn3tlC3d9vg1TxJRrEKMyQ",
-  "sha256": "5A74BFD3383787654923B0F7A0C1CBEFCA59113F82FAF77DCC6053538E377928",
-  "releaseNotes": "GAMER ZONE LAUNCHER v1.1.0 - Executable renamed to GamerZoneLauncher.exe with updated branding.",
+  "sha256": "85E2843074E855B0068466225E3488A5EB28E84C70D3CD12463EDE600D3865F5",
+  "releaseNotes": "ETS2 Launcher v1.1.2 update.",
   "minimumLauncherVersion": "1.0.0"
 }
