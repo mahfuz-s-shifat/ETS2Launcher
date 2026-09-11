@@ -1,1 +1,15 @@
-
+{
+  "version": "1.0",
+  "backgrounds": [
+    {
+      "fileName": "bg01.jpg",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg01.jpg",
+      "sha256": "SHA256_HERE"
+    },
+    {
+      "fileName": "bg02.gif",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg02.gif",
+      "sha256": "SHA256_HERE"
+    }
+  ]
+}
