@@ -22,14 +22,49 @@
       "sha256": "ED64A2A1614050476613D12300E4B04815DC3EC3B68D9DB41F71AEADB0025F86"
     },
     {
-      "fileName": "bg02.gif",
-      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg02.gif",
-      "sha256": "7CE0AD04D78D7173970434792E6943F294D5AD6596D586E7F2A7EC4DD02DF485"
+      "fileName": "bg05.png",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg05.png",
+      "sha256": "62EBFD7BEB13D946752FB542109BA8F695A8EE943B9850C6027B4BE330362407"
     },
     {
-      "fileName": "bg06.gif",
-      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg06.gif",
-      "sha256": "533FA30F502F3D654B0940DBA4E1BB4EBC55508652F19515D8B06C6FCAF1B343"
+      "fileName": "bg06.png",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg06.png",
+      "sha256": "21406387D4520B85E8D3CC6FA3D72C3C9AD4465EDBD3E1A85255EACFAA86EBE2"
+    },
+    {
+      "fileName": "bg07.png",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg07.png",
+      "sha256": "A372DF28437D502A7176EC51F40F87D58D49FBAE861C467973E7D44F9D5C023F"
+    },
+    {
+      "fileName": "bg08.png",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg08.png",
+      "sha256": "3C53BCD23E0934E28CE0124DEE89F3A8E58204D0216C138BD09EB4C7D1445E1D"
+    },
+    {
+      "fileName": "bg09.png",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg09.png",
+      "sha256": "45365A2C73100F75017B29816F1DEC78F5522332B9529E20248614B0B4D9EF97"
+    },
+    {
+      "fileName": "bg10.png",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg10.png",
+      "sha256": "02155368AABE9149297B03E604C75BB2ED57D6396F69922F2CE67CBB4377D88A"
+    },
+    {
+      "fileName": "bg11.png",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg11.png",
+      "sha256": "7902EF67260CCDB4D0CB7A8235FB537E959C515305DE0772253B0F5694B5B462"
+    },
+    {
+      "fileName": "bg12.png",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg12.png",
+      "sha256": "FDBD75E508C1B3B3A2007D56C0591B56B801F5B64FB2B363510475F251276C7F"
+    },
+    {
+      "fileName": "bg14.png",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg14.png",
+      "sha256": "42BA577D8EE3AE6613F78C2B09B2ED15E58B8951C3027CBBAEBE51A2971456B5"
     }
   ]
 }
