@@ -20,6 +20,16 @@
       "fileName": "bg04.png",
       "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg04.png",
       "sha256": "ED64A2A1614050476613D12300E4B04815DC3EC3B68D9DB41F71AEADB0025F86"
+    },
+    {
+      "fileName": "bg02.gif",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg02.gif",
+      "sha256": "7CE0AD04D78D7173970434792E6943F294D5AD6596D586E7F2A7EC4DD02DF485"
+    },
+    {
+      "fileName": "bg06.gif",
+      "url": "https://raw.githubusercontent.com/mahfuz-s-shifat/ETS2Launcher/main/backgrounds/bg06.gif",
+      "sha256": "533FA30F502F3D654B0940DBA4E1BB4EBC55508652F19515D8B06C6FCAF1B343"
     }
   ]
 }
