@@ -1,14 +1,12 @@
 {
-  "version": "1.1.5",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.1.5/GamerZoneLauncher-Setup-1.1.5.exe",
-  "sha256": "5FAD6A4102F7D712EB6CCB844AE97FAE6431812303CF958A6B1A2050ADA927D7",
+  "version": "1.1.6",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.1.6/GamerZoneLauncher-Setup-1.1.6.exe",
+  "sha256": "4A9353C2D92B89C8BE6C868D68C636E7AB66E701559DD61E8D6D87EF5DD27D29",
   "mandatory": true,
   "releaseNotes": [
-    "Google Drive game file synchronization optimizations",
-    "Duplicate and unnecessary download prevention enhancements",
-    "Dynamic Google Drive folder file parsing improvements",
-    "Startup update check resiliency and optional update support",
-    "Launcher update detection and version handling improvements",
-    "Internal code cleanup and stability improvements"
+    "Launcher version consistency issue fixed",
+    "All launcher version displays are now synchronized to 1.1.6",
+    "Update checker version detection improved",
+    "Mandatory update support enabled"
   ]
 }
