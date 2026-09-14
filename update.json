@@ -2,7 +2,7 @@
   "version": "1.1.4",
   "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.1.4/GamerZoneLauncher-Setup-1.1.4.exe",
   "sha256": "4C56B3BA39E9BF40F7A1FCC75A25E753DF1315AE6D082C4AA3F09928D0456E27",
-  "mandatory": false,
+  "mandatory": true,
   "releaseNotes": [
     "Google Drive game file synchronization optimizations",
     "Duplicate and unnecessary download prevention enhancements",
