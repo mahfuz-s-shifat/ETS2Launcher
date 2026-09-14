@@ -1,9 +1,13 @@
 {
-  "launcherVersion": "1.1.2",
-  "gameVersion": "1.0.0",
-  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.1.2/GamerZoneLauncher-Setup-1.1.2.exe",
-  "gameFilesDownloadUrl": "https://mega.nz/folder/H5BV0D5D#Mn3tlC3d9vg1TxJRrEKMyQ",
-  "sha256": "85E2843074E855B0068466225E3488A5EB28E84C70D3CD12463EDE600D3865F5",
-  "releaseNotes": "ETS2 Launcher v1.1.2 update.",
-  "minimumLauncherVersion": "1.0.0"
+  "version": "1.1.3",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.1.3/GamerZoneLauncher-Setup-1.1.3.exe",
+  "sha256": "9F1E2D99126D5A011473C6FE2C1BB4CDC595A19585EDE5817F7A58CA59EA9F64",
+  "mandatory": false,
+  "releaseNotes": [
+    "Google Drive game file system optimized",
+    "Existing local game files are no longer downloaded again",
+    "Dynamic file change detection improved",
+    "File validation and repair system improved",
+    "Download performance and reliability improved"
+  ]
 }
