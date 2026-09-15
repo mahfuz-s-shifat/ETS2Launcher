@@ -1,7 +1,7 @@
 {
   "version": "1.2.2",
   "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.2/GamerZoneLauncher-Setup-1.2.2.exe",
-  "sha256": "EC4220DF7D8CD3D9E2D4B13ED56F065FC27A25DEDD8526B1F25AC365E2A5E7ED",
+  "sha256": "EA3A5E5F3B65B0FF5C30691ACD48AF000502939E6C30D606577012E009A06AB1",
   "mandatory": true,
   "releaseNotes": [
     "Improved Google Drive game file update detection",
