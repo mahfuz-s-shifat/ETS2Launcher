@@ -4,13 +4,13 @@
   "sha256": "EC4220DF7D8CD3D9E2D4B13ED56F065FC27A25DEDD8526B1F25AC365E2A5E7ED",
   "mandatory": true,
   "releaseNotes": [
-    "Fixed ETS2 profile folder synchronization",
-    "Updated profile directory ID to 47616d65725a6f6e65",
-    "Added profile.sii synchronization",
-    "Added profile.bak.sii synchronization",
-    "Improved profile file MD5 hash verification",
-    "Improved Google Drive game file synchronization",
-    "Improved download reliability and stability",
-    "General performance and stability improvements"
+    "Improved Google Drive game file update detection",
+    "Added fast cached MD5 hash verification",
+    "Improved local file hash caching and validation",
+    "Added in-flight MD5 calculation during game file downloads",
+    "Improved profile.sii and profile.bak.sii synchronization",
+    "Improved ETS2 profile file synchronization reliability",
+    "Improved game file download and update performance",
+    "General stability and reliability improvements"
   ]
 }
