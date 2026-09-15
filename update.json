@@ -1,15 +1,15 @@
 {
-  "launcherVersion": "1.2.0",
-  "gameVersion": "1.0.0",
-  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.0/GamerZoneLauncher-Setup-1.2.0.exe",
-  "gameFilesDownloadUrl": "https://drive.google.com/drive/folders/1Eejt0cI-oZb3SrE3Ft48cLJbh5YRPo5b",
-  "sha256": "EE9528A54D9EC177A8BDD7678BB0A708EA20225A60B88911A8553BD059FE2601",
+  "version": "1.2.1",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.1/GamerZoneLauncher-Setup-1.2.1.exe",
+  "sha256": "ADA4210B40BC0C4978157D101D67AFAAE1FB32BD7F295622C3A245420ACD7F52",
   "mandatory": true,
   "releaseNotes": [
-    "Upgraded to Gamer Zone Launcher v1.2.0",
-    "Implemented Fast Hybrid Google Drive + Local File Metadata update detection",
-    "Instantaneous startup checking with zero disk hashing during detection",
-    "Precise UTC timestamp and size synchronization upon game-file download"
-  ],
-  "minimumLauncherVersion": "1.0.0"
+    "Fixed Google Drive game file update detection",
+    "Improved Google Drive remote file metadata detection",
+    "Added reliable remote file size and modification time comparison",
+    "Improved detection of updated files with the same Google Drive File ID",
+    "Removed the Preferences section",
+    "Improved game file synchronization performance and reliability",
+    "General stability and performance improvements"
+  ]
 }
