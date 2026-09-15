@@ -1,11 +1,17 @@
 {
-  "version": "1.1.7",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.1.7/GamerZoneLauncher-Setup-1.1.7.exe",
-  "sha256": "508BDA03AA0DC6558FA7C43FFB0FB16CF8500B6FF423563233505EC968E76499",
+  "version": "1.1.8",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.1.8/GamerZoneLauncher-Setup-1.1.8.exe",
+  "sha256": "17DFFE1700D95370B3C48F8A7E7F3F34F2E3F7E60D17C75DEA0A0E5A65A4904B",
   "mandatory": true,
   "releaseNotes": [
-    "Unnecessary links removed from the Preferences section",
-    "Launcher version consistency improved",
-    "Launcher updated to version 1.1.7"
+    "Improved game file update-check notification flow",
+    "Added Checking For Updates notification when scanning game files",
+    "Added All Files Are Up To Date notification with automatic 8-second dismissal",
+    "Optimized startup launcher update detection for faster startup",
+    "Fixed Preferences Save button and configuration persistence",
+    "Improved settings synchronization and save reliability",
+    "Removed unnecessary default-config.json from the installed application directory",
+    "Embedded default configuration into the launcher for cleaner installation",
+    "General stability and performance improvements"
   ]
 }
