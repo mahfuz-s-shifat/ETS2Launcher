@@ -1,17 +1,18 @@
 {
-  "version": "1.1.8",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.1.8/GamerZoneLauncher-Setup-1.1.8.exe",
-  "sha256": "17DFFE1700D95370B3C48F8A7E7F3F34F2E3F7E60D17C75DEA0A0E5A65A4904B",
+  "version": "1.1.9",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.1.9/GamerZoneLauncher-Setup-1.1.9.exe",
+  "sha256": "C4C55F91568A158433B7DB8CB595B33410A8A340A7CE2FDEA85E58C94F2C4717",
   "mandatory": true,
   "releaseNotes": [
-    "Improved game file update-check notification flow",
-    "Added Checking For Updates notification when scanning game files",
-    "Added All Files Are Up To Date notification with automatic 8-second dismissal",
-    "Optimized startup launcher update detection for faster startup",
-    "Fixed Preferences Save button and configuration persistence",
-    "Improved settings synchronization and save reliability",
-    "Removed unnecessary default-config.json from the installed application directory",
-    "Embedded default configuration into the launcher for cleaner installation",
-    "General stability and performance improvements"
+    "Restored the fast and reliable launcher update system",
+    "Added concurrent startup checking for launcher and game file updates",
+    "Improved Google Drive remote file update detection",
+    "Added remote-only game file change detection without local file hashing",
+    "Improved detection of new and modified Google Drive game files",
+    "Added startup game file update availability detection",
+    "Optimized game file update checks with intelligent scan caching",
+    "Improved Download Game Files update-check workflow",
+    "Improved update error handling and connection reliability",
+    "Improved overall launcher performance, stability, and responsiveness"
   ]
 }
