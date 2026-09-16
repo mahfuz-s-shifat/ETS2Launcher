@@ -1,13 +1,12 @@
 {
-  "version": "1.2.5",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.5/GamerZoneLauncher-Setup-1.2.5.exe",
-  "sha256": "7939A4B64C24EB401997E36B23E42B8B122D8F1391CC965E6490942CC21042A2",
+  "version": "1.2.6",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.6/GamerZoneLauncher-Setup-1.2.6.exe",
+  "sha256": "B33C53FA2DFC057412372F214E5AEA6B00260B135F574C1D1DF52186A43912BE",
   "mandatory": true,
   "releaseNotes": [
+    "Fixed custom download folder detection to prevent redundant file re-downloads",
+    "Enabled dynamic mod directory inventory and hash verification",
     "Added automatic .sii profile file routing to Euro Truck Simulator 2/profiles/47616d65725a6f6e65",
-    "Migrated game files backend to Cloudflare R2 Worker API for high-speed downloads",
-    "Resolved Google Drive quota limits and download rate-limiting permanently",
-    "Enabled fast MD5 in-flight verification and hash matching for profile files",
-    "Launcher version updated to 1.2.5"
+    "Launcher version updated to 1.2.6"
   ]
 }
