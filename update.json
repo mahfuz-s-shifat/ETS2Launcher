@@ -1,7 +1,7 @@
 {
   "version": "1.2.3",
   "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.3/GamerZoneLauncher-Setup-1.2.3.exe",
-  "sha256": "এখানে_২_নম্বর_ধাপের_প্রাপ্ত_SHA256_হ্যাশ_বসবে",
+  "sha256": "47BFE07F8ACF471776A215E06034E7E0FF16B6237D64FECAA88A5EF01C6603B7",
   "mandatory": true,
   "releaseNotes": [
     "Added high-performance cached MD5 verification for game files",
