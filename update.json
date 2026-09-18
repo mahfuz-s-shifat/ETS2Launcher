@@ -1,12 +1,18 @@
 {
-  "version": "1.2.6",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.6/GamerZoneLauncher-Setup-1.2.6.exe",
-  "sha256": "B33C53FA2DFC057412372F214E5AEA6B00260B135F574C1D1DF52186A43912BE",
+  "version": "1.2.7",
   "mandatory": true,
-  "releaseNotes": [
-    "Fixed custom download folder detection to prevent redundant file re-downloads",
-    "Enabled dynamic mod directory inventory and hash verification",
-    "Added automatic .sii profile file routing to Euro Truck Simulator 2/profiles/47616d65725a6f6e65",
-    "Launcher version updated to 1.2.6"
+  "releaseDate": "2026-09-18",
+  "downloadUrl": "https://pub-8bdd7b355c9ed6ebb2a8dba86e884072.r2.dev/GamerZoneLauncher-Setup-1.2.7.exe",
+  "fileName": "GamerZoneLauncher-Setup-1.2.7.exe",
+  "fileSize": 72429412,
+  "sha256": "EA861918F38A59CFB7DD201015369FA87D510B0D2E9AF03607E04FC448C87616",
+  "changelog": [
+    "Redesigned UI with glass morphism styling and Jersey 25 typography",
+    "Updated vector icons with uniform 2.5px stroke thickness",
+    "Fixed sidebar icon spacing and vertical alignment",
+    "Enlarged 'GAMER ZONE LAUNCHER' title badge with balanced capsule padding",
+    "Enhanced 'LAUNCH GAME' button capsule stroke (+2px)",
+    "Replaced maximize control with dedicated minimize button",
+    "Dynamic launcher version display integration"
   ]
 }
