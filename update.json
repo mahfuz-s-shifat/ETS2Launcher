@@ -1,14 +1,15 @@
 {
-  "version": "1.2.9",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.9/GamerZone_Launcher_Setup_v1.2.9.exe",
-  "sha256": "7C8945D5724EB39C17845A0636DA13E2B2589BB98BF10E2D583D85C90DDA3B14",
+  "version": "1.2.8",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.8/GamerZoneLauncher-Setup-1.2.8.exe",
+  "sha256": "BA59867B0D1523F550A6AD61317FDBCEF9505A86328D45CAE7279A3578726F41",
   "mandatory": true,
   "releaseNotes": [
-    "Live Convoy Telemetry: Auto-detects ETS2 path and auto-deploys telemetry SDK plugin seamlessly",
-    "Continuous Speed Monitoring: Fixed speed-sampling pipeline to detect overspeed alerts reliably in all modes",
-    "PostgreSQL Reserved Keyword Compatibility: Mapped \"limit\" column serialization for flawless Supabase HTTP 201 ingestion",
-    "Dual-Identifier Whitelist & Speed Bypass: Added SteamID64 mandatory verification and speed-limit exemption",
-    "Zero-Leftover Cleanup: Recursively clears all local AppData and caches upon uninstallation",
-    "Resilient Network Logging: Added robust telemetry dispatch logging and instant error reporting"
+    "Security Audit & Clean Architecture: Purged experimental Game Booster and Radio background modules",
+    "Prevented kernel handle leaks in process monitoring routines (ProcessSecurityManager)",
+    "Implemented atomic safe file writing with disk flush to prevent configuration corruption",
+    "Hardened local secret persistence using Windows DPAPI encryption",
+    "Added network anti-SSRF protections and strictly enforced HTTPS-only endpoints",
+    "Sanitized file paths against traversal and NTFS Alternate Data Stream exploits",
+    "Secured PowerShell updater execution path to prevent search-order hijacking"
   ]
 }
