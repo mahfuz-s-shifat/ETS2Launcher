@@ -1,15 +1,17 @@
 {
-  "version": "1.2.8",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.8/GamerZoneLauncher-Setup-1.2.8.exe",
-  "sha256": "BA59867B0D1523F550A6AD61317FDBCEF9505A86328D45CAE7279A3578726F41",
+  "version": "1.2.9",
+  "launcherVersion": "1.2.9",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.9/GamerZone_Launcher_Setup_v1.2.9.exe",
+  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.2.9/GamerZone_Launcher_Setup_v1.2.9.exe",
+  "sha256": "878B43363F8EF5110F6D2A53E4A6E0F94AB5CBB564215E66E4B82A7A372E9D00",
   "mandatory": true,
+  "gameVersion": "1.57.6.9",
   "releaseNotes": [
-    "Security Audit & Clean Architecture: Purged experimental Game Booster and Radio background modules",
-    "Prevented kernel handle leaks in process monitoring routines (ProcessSecurityManager)",
-    "Implemented atomic safe file writing with disk flush to prevent configuration corruption",
-    "Hardened local secret persistence using Windows DPAPI encryption",
-    "Added network anti-SSRF protections and strictly enforced HTTPS-only endpoints",
-    "Sanitized file paths against traversal and NTFS Alternate Data Stream exploits",
-    "Secured PowerShell updater execution path to prevent search-order hijacking"
+    "Strict zero-tolerance speed cap enforcement (> Assigned Limit + 1.0 km/h) with 2.5s anti-cheat detection",
+    "Dynamic convoy speed limit live synchronization from Supabase without hardcoded fallbacks",
+    "Supabase player whitelist custom speed override and UTC expiration verification",
+    "Non-blocking asynchronous telemetry engine startup preventing ETS2 game launch freezes",
+    "Continuous background watchdog protection for ETS2 v1.57.6.9",
+    "Zero-leftover uninstaller cleanup purging all logs, caches, and local configuration"
   ]
 }
