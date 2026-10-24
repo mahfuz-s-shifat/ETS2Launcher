@@ -1,17 +1,19 @@
 {
-  "version": "1.3.1",
-  "launcherVersion": "1.3.1",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.1/GamerZone_Launcher_Setup_v1.3.1.exe",
-  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.1/GamerZone_Launcher_Setup_v1.3.1.exe",
-  "sha256": "8B582622943D72BA40DBFE332FB5637A65D27DC7E0A8E47CF96662EA12F1EFCB",
+  "version": "1.3.2",
+  "launcherVersion": "1.3.2",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.2/GamerZone_Launcher_Setup_v1.3.2.exe",
+  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.2/GamerZone_Launcher_Setup_v1.3.2.exe",
+  "sha256": "32D9CDD9D3CA53D669F87A85587896AFC7AB4CBD26082A3984C031E6975D225B",
   "mandatory": true,
   "gameVersion": "1.57.6.9",
   "releaseNotes": [
-    "Reverted execution level to standard user privileges (asInvoker in app.manifest)",
-    "Implemented single-instance enforcement via system-wide Mutex with foreground activation",
-    "Enabled immediate, clean process termination upon main window close (ShutdownMode.OnMainWindowClose)",
-    "Updated typography application-wide to Google Font 'Outfit' (Regular, Medium, SemiBold, Bold)",
-    "Removed legacy Jersey25 font files and references across styles and XAML views",
-    "Streamlined background task cancellation and tray cleanup upon window closure"
+    "Integrated Cloudflare Worker security authentication header (X-Launcher-Auth)",
+    "Standardized custom User-Agent header ('GamerZoneLauncher/1.3.2') across all HTTP requests",
+    "Enhanced error handling for HTTP 403 Forbidden with actionable user notifications",
+    "Auto-minimize main launcher window to Windows System Tray upon successful game launch",
+    "Added interactive system tray icon with double-click/right-click restore menu and single-click activation",
+    "Automated launcher window restoration to desktop upon ETS2 process exit",
+    "Updated window title bar minimize button icon to the Lucide minus path geometry",
+    "Optimized file verification and HEAD request checks against protected remote endpoints"
   ]
 }
