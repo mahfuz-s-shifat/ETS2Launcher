@@ -1,19 +1,20 @@
 {
-  "version": "1.3.2",
-  "launcherVersion": "1.3.2",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.2/GamerZone_Launcher_Setup_v1.3.2.exe",
-  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.2/GamerZone_Launcher_Setup_v1.3.2.exe",
-  "sha256": "32D9CDD9D3CA53D669F87A85587896AFC7AB4CBD26082A3984C031E6975D225B",
-  "mandatory": true,
+  "version": "1.3.3",
+  "launcherVersion": "1.3.3",
   "gameVersion": "1.57.6.9",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.3/GamerZone_Launcher_Setup_v1.3.3.exe",
+  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.3/GamerZone_Launcher_Setup_v1.3.3.exe",
+  "sha256": "79D630FF1D2E46E5F847B96BDBB30275E0C4933A6EDC892BE4A63285AC65F0C8",
+  "mandatory": true,
+  "minimumLauncherVersion": "1.0.0",
   "releaseNotes": [
-    "Integrated Cloudflare Worker security authentication header (X-Launcher-Auth)",
-    "Standardized custom User-Agent header ('GamerZoneLauncher/1.3.2') across all HTTP requests",
-    "Enhanced error handling for HTTP 403 Forbidden with actionable user notifications",
-    "Auto-minimize main launcher window to Windows System Tray upon successful game launch",
-    "Added interactive system tray icon with double-click/right-click restore menu and single-click activation",
-    "Automated launcher window restoration to desktop upon ETS2 process exit",
-    "Updated window title bar minimize button icon to the Lucide minus path geometry",
-    "Optimized file verification and HEAD request checks against protected remote endpoints"
+    "Redesigned About Launcher Modal: Clean 2-column layout displaying Author (GAMER ZONE), Developer (NO BI TA), Version (1.3.3), and Game Status (Game Ready) in crisp white, with official copyright notice",
+    "Cleaned UI Hover & ToolTips: Eliminated unwanted white OS tooltips on Update Profile, Minimize, and Close buttons, ensuring pure custom dark glass badge visuals",
+    "ZIP-Based Profile Sync: High-speed streaming download of 47414d45525a4f4e452050524f.zip with safe local extraction, replacing slow multi-file downloads",
+    "Game Mod Exclusion Filtering: Excluded profile archives from automatic mod update scanning to prevent false-positive startup alerts",
+    "Close Button System Tray Minimization: Window close ('X') smoothly hides the launcher to the Windows System Tray instead of terminating",
+    "Process Force-Kill on Exit: Automatically terminates all active eurotrucks2.exe instances upon explicit exit from tray or sidebar",
+    "Telemetry Streaming & Admin Remote Actions: Real-time telemetry reporting (Speed, SteamID64, HWID) and poller for remote administrative actions",
+    "Silent Plugin Deployment: Automated deployment of embedded scs-telemetry.dll to the ETS2 plugins directory on launch"
   ]
 }
