@@ -1,20 +1,21 @@
 {
-  "version": "1.3.3",
-  "launcherVersion": "1.3.3",
+  "version": "1.3.4",
+  "launcherVersion": "1.3.4",
   "gameVersion": "1.57.6.9",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.3/GamerZone_Launcher_Setup_v1.3.3.exe",
-  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.3/GamerZone_Launcher_Setup_v1.3.3.exe",
-  "sha256": "79D630FF1D2E46E5F847B96BDBB30275E0C4933A6EDC892BE4A63285AC65F0C8",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.4/GamerZone_Launcher_Setup_v1.3.4.exe",
+  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.4/GamerZone_Launcher_Setup_v1.3.4.exe",
+  "sha256": "C8A3A2497005D04B86C7431428740B8F78A133FDDB39ED8AD27A6A96E1F33C85",
   "mandatory": true,
   "minimumLauncherVersion": "1.0.0",
   "releaseNotes": [
-    "Redesigned About Launcher Modal: Clean 2-column layout displaying Author (GAMER ZONE), Developer (NO BI TA), Version (1.3.3), and Game Status (Game Ready) in crisp white, with official copyright notice",
-    "Cleaned UI Hover & ToolTips: Eliminated unwanted white OS tooltips on Update Profile, Minimize, and Close buttons, ensuring pure custom dark glass badge visuals",
-    "ZIP-Based Profile Sync: High-speed streaming download of 47414d45525a4f4e452050524f.zip with safe local extraction, replacing slow multi-file downloads",
-    "Game Mod Exclusion Filtering: Excluded profile archives from automatic mod update scanning to prevent false-positive startup alerts",
-    "Close Button System Tray Minimization: Window close ('X') smoothly hides the launcher to the Windows System Tray instead of terminating",
-    "Process Force-Kill on Exit: Automatically terminates all active eurotrucks2.exe instances upon explicit exit from tray or sidebar",
-    "Telemetry Streaming & Admin Remote Actions: Real-time telemetry reporting (Speed, SteamID64, HWID) and poller for remote administrative actions",
-    "Silent Plugin Deployment: Automated deployment of embedded scs-telemetry.dll to the ETS2 plugins directory on launch"
+    "Unified Download Progress Modal: Centralized all download flows (Game Folder Setup, Map Mods Download, and Launcher Updates) into a single glassmorphic modal overlay with real-time status and animated progress tracking",
+    "Standardized Notification Host: Consolidated all floating toasts and alerts into a uniform top-center container with consistent dark glass styling, glow borders, and slide animations",
+    "Streamlined Sidebar Navigation: Reordered navigation into a clean 6-item workflow (Select Game Directory, Game Folder Download, Map Mods Download, About Launcher, Log Out, Exit)",
+    "Direct Map Mods Deployment: Map mods (.scs) now download directly to Documents\\Euro Truck Simulator 2\\mod with automatic OneDrive fallback and directory creation",
+    "Steam Integration & Status Detection: Live status indicator chip in header showing Steam Running/Offline status with one-click Steam launch",
+    "Silent Automated Game Directory Setup: Downloads Euro Truck Simulator 2.zip from Cloudflare R2 with automatic timestamped backup and zero prompt interruptions",
+    "Strict .scs Mod Update Scanner: Exclusively checks .scs files for mod updates, completely excluding .zip archives and profile packages from background scans and update popups",
+    "Polished Top-Right Window Controls: Aligned Steam indicator chip height, radius, and vertical alignment with circular window action buttons",
+    "Process Safety & Stability: Process lock validation, tray close minimization, and explicit exit force-kill protection"
   ]
 }
