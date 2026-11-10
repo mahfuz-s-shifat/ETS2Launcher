@@ -1,21 +1,16 @@
 {
-  "version": "1.3.4",
-  "launcherVersion": "1.3.4",
-  "gameVersion": "1.57.6.9",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.4/GamerZone_Launcher_Setup_v1.3.4.exe",
-  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.4/GamerZone_Launcher_Setup_v1.3.4.exe",
-  "sha256": "C8A3A2497005D04B86C7431428740B8F78A133FDDB39ED8AD27A6A96E1F33C85",
-  "mandatory": true,
-  "minimumLauncherVersion": "1.0.0",
-  "releaseNotes": [
-    "Unified Download Progress Modal: Centralized all download flows (Game Folder Setup, Map Mods Download, and Launcher Updates) into a single glassmorphic modal overlay with real-time status and animated progress tracking",
-    "Standardized Notification Host: Consolidated all floating toasts and alerts into a uniform top-center container with consistent dark glass styling, glow borders, and slide animations",
-    "Streamlined Sidebar Navigation: Reordered navigation into a clean 6-item workflow (Select Game Directory, Game Folder Download, Map Mods Download, About Launcher, Log Out, Exit)",
-    "Direct Map Mods Deployment: Map mods (.scs) now download directly to Documents\\Euro Truck Simulator 2\\mod with automatic OneDrive fallback and directory creation",
-    "Steam Integration & Status Detection: Live status indicator chip in header showing Steam Running/Offline status with one-click Steam launch",
-    "Silent Automated Game Directory Setup: Downloads Euro Truck Simulator 2.zip from Cloudflare R2 with automatic timestamped backup and zero prompt interruptions",
-    "Strict .scs Mod Update Scanner: Exclusively checks .scs files for mod updates, completely excluding .zip archives and profile packages from background scans and update popups",
-    "Polished Top-Right Window Controls: Aligned Steam indicator chip height, radius, and vertical alignment with circular window action buttons",
-    "Process Safety & Stability: Process lock validation, tray close minimization, and explicit exit force-kill protection"
+  "version": "1.3.5",
+  "launcherVersion": "1.3.5",
+  "releaseDate": "2026-11-11",
+  "required": false,
+  "installerUrl": "https://gamerzoneofficial.vercel.app/downloads/GamerZone_Launcher_Setup_v1.3.5.exe",
+  "sha256": "A639FDE1EA337DE5572E662D3B4DB9E3C6429B5977D44F1546900B5B1FF0DA15",
+  "fileSize": 88705010,
+  "changelog": [
+    "Multi-Storage Cloud Engine: Seamlessly distributed ~20 GB mod asset library across dual Cloudflare R2 buckets.",
+    "Smart Routing & Fallback: Intelligent origin detection per file with automatic secondary endpoint fallback.",
+    "Enhanced Security: Reinforced authentication headers (X-Launcher-Auth) and client integrity validation.",
+    "Full Asset Compatibility: Complete support for updated convoy maps, bus mods, chassis physics, and custom liveries.",
+    "Performance Optimization: Streamlined concurrent bucket probing and background update checks."
   ]
 }
