@@ -1,16 +1,21 @@
 {
   "version": "1.3.5",
   "launcherVersion": "1.3.5",
-  "releaseDate": "2026-11-11",
-  "required": false,
+  "gameVersion": "1.57.6.9",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.5/GamerZone_Launcher_Setup_v1.3.5.exe",
+  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.5/GamerZone_Launcher_Setup_v1.3.5.exe",
   "installerUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.5/GamerZone_Launcher_Setup_v1.3.5.exe",
   "sha256": "A639FDE1EA337DE5572E662D3B4DB9E3C6429B5977D44F1546900B5B1FF0DA15",
-  "fileSize": 88705010,
-  "changelog": [
-    "Multi-Storage Cloud Engine: Seamlessly distributed ~20 GB mod asset library across dual Cloudflare R2 buckets.",
-    "Smart Routing & Fallback: Intelligent origin detection per file with automatic secondary endpoint fallback.",
-    "Enhanced Security: Reinforced authentication headers (X-Launcher-Auth) and client integrity validation.",
-    "Full Asset Compatibility: Complete support for updated convoy maps, bus mods, chassis physics, and custom liveries.",
-    "Performance Optimization: Streamlined concurrent bucket probing and background update checks."
+  "mandatory": true,
+  "minimumLauncherVersion": "1.0.0",
+  "releaseNotes": [
+    "Multi-Storage Account / Dual-Bucket Aggregation: Added concurrent discovery across Primary and Secondary Cloudflare R2 Workers via Task.WhenAll, unifying multi-bucket game assets and expanding file library capacity to ~16GB+",
+    "Intelligent Download Routing & Origin Tracking: Each remote file tracks its originating storage worker (OriginBaseUrl) for direct high-speed streaming downloads",
+    "Automated HTTP 404 Fallback: Implemented automatic single-fallback download queries between Primary and Secondary workers when a file is missing or displaced on an individual bucket",
+    "Candidate Probing with Dual-Worker Fallback: Mod verification checks candidate list against Primary worker first, gracefully probing Secondary worker if 404 is returned",
+    "Security & Authentication Standardization: Updated all HTTP clients and worker calls to User-Agent 'GamerZoneLauncher/1.3.5 (Windows NT 10.0; Win64; x64)' and token 'GZ_LAUNCHER_AUTH_X99_SECURE_TOKEN'",
+    "Strict Profile Exclusion Preserved: Dedicated profile archive (47414d45525a4f4e452050524f.zip) remains strictly isolated from game mod update scans and routes exclusively through manual profile sync",
+    "Unified Central Progress Modal & Top-Center Alerts: Maintained consistent glassmorphic progress tracking and top-center notification alignment across all download operations",
+    "Process Safety & Tray Protection: Full support for single instance mutex, tray minimization, and eurotrucks2.exe termination on clean launcher exit"
   ]
 }
