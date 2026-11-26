@@ -1,22 +1,15 @@
 {
-  "version": "1.3.5",
-  "launcherVersion": "1.3.5",
-  "gameVersion": "1.57.6.9",
-  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.5/GamerZone_Launcher_Setup_v1.3.5.exe",
-  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.5/GamerZone_Launcher_Setup_v1.3.5.exe",
-  "installerUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.5/GamerZone_Launcher_Setup_v1.3.5.exe",
-  "sha256": "CFFB251BB5E888E11B3248655699AB768F43DDEE62B08682C32DBAA463E0CF7B",
-  "mandatory": true,
-  "minimumLauncherVersion": "1.0.0",
-  "releaseNotes": [
-    "Multi-Storage Account / Dual-Bucket Aggregation: Added concurrent discovery across Primary and Secondary Cloudflare R2 Workers via Task.WhenAll, unifying multi-bucket game assets and expanding file library capacity to ~16GB+",
-    "Intelligent Download Routing & Origin Tracking: Each remote file tracks its originating storage worker (OriginBaseUrl) for direct high-speed streaming downloads",
-    "Automated HTTP 404 Fallback: Implemented automatic single-fallback download queries between Primary and Secondary workers when a file is missing or displaced on an individual bucket",
-    "Candidate Probing with Dual-Worker Fallback: Mod verification checks candidate list against Primary worker first, gracefully probing Secondary worker if 404 is returned",
-    "Auto-Update Redirect & URL Resilience: Expanded trusted host whitelist (GitHub release-assets/objects redirects, Cloudflare Workers, Vercel), added URL space-encoding sanitization, and isolated custom auth headers from external redirects",
-    "Security & Authentication Standardization: Updated all HTTP clients and worker calls to User-Agent 'GamerZoneLauncher/1.3.5 (Windows NT 10.0; Win64; x64)' and token 'GZ_LAUNCHER_AUTH_X99_SECURE_TOKEN'",
-    "Strict Profile Exclusion Preserved: Dedicated profile archive (47414d45525a4f4e452050524f.zip) remains strictly isolated from game mod update scans and routes exclusively through manual profile sync",
-    "Unified Central Progress Modal & Top-Center Alerts: Maintained consistent glassmorphic progress tracking and top-center notification alignment across all download operations",
-    "Process Safety & Tray Protection: Full support for single instance mutex, tray minimization, and eurotrucks2.exe termination on clean launcher exit"
+  "version": "1.3.6",
+  "launcherVersion": "1.3.6",
+  "releaseDate": "2026-11-26",
+  "mandatory": false,
+  "installerUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.6/GamerZone_Launcher_Setup_v1.3.6.exe",
+  "sha256": "851ABB3AD05579305762F85C7664CC097F5A93C661A2426D8AF7D064123E7A07",
+  "fileSize": 88452844,
+  "changelog": [
+    "Added Discord Rich Presence (RPC) with live launcher & game status updates",
+    "Added quick-access buttons for GamerZone Discord and Official Website in Discord status",
+    "Fixed GitHub release redirect validation (objects.githubusercontent.com) for seamless auto-updates",
+    "General stability and performance improvements"
   ]
 }
