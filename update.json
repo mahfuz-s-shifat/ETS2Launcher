@@ -1,15 +1,17 @@
 {
   "version": "1.3.6",
   "launcherVersion": "1.3.6",
-  "releaseDate": "2026-11-26",
-  "mandatory": false,
+  "gameVersion": "1.57.6.9",
+  "downloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.6/GamerZone_Launcher_Setup_v1.3.6.exe",
+  "launcherDownloadUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.6/GamerZone_Launcher_Setup_v1.3.6.exe",
   "installerUrl": "https://github.com/mahfuz-s-shifat/ETS2Launcher/releases/download/v1.3.6/GamerZone_Launcher_Setup_v1.3.6.exe",
   "sha256": "851ABB3AD05579305762F85C7664CC097F5A93C661A2426D8AF7D064123E7A07",
-  "fileSize": 88452844,
-  "changelog": [
-    "Added Discord Rich Presence (RPC) with live launcher & game status updates",
-    "Added quick-access buttons for GamerZone Discord and Official Website in Discord status",
-    "Fixed GitHub release redirect validation (objects.githubusercontent.com) for seamless auto-updates",
-    "General stability and performance improvements"
+  "mandatory": true,
+  "minimumLauncherVersion": "1.0.0",
+  "releaseNotes": [
+    "Discord Rich Presence (RPC): Live status integration displaying launcher activity, active ETS2 Convoy/Singleplayer sessions, and elapsed session timer",
+    "Interactive Discord Profile Buttons: Added direct quick-access buttons for Join GZ Discord and GZ Official Website directly on your Discord profile",
+    "Auto-Update Redirect & URL Resilience: Expanded trusted host whitelist (GitHub release-assets/objects redirects, Cloudflare Workers, Vercel) for seamless auto-updates",
+    "Dual-Bucket R2 & Security Standardization: Preserved multi-storage cloud aggregation, custom User-Agent headers, and clean tray/process lifecycle management"
   ]
 }
